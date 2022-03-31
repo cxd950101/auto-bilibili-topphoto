@@ -91,7 +91,7 @@ async function painting(){
 //     let days = await getLastPubDistance();
 
     //计算文字尺寸
-    let size = ctx.measureText(days);
+//     let size = ctx.measureText(days);
     const txt_x = 2020;
     const txt_y = 135;
 
