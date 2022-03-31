@@ -88,10 +88,11 @@ async function painting(){
     ctx.font = '97px hanzi';
 
     //获得鸽的天数
+    let days = "我已存活 "+diffDays(new Date('1995-01-01'),new Date()) +" 天！"
 //     let days = await getLastPubDistance();
 
     //计算文字尺寸
-//     let size = ctx.measureText(days);
+    let size = ctx.measureText(days);
     const txt_x = 2020;
     const txt_y = 135;
 
