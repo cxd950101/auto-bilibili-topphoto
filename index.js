@@ -107,7 +107,7 @@ async function painting(){
     e	水平移动绘图
     f	垂直移动绘图
     */
-    ctx.transform(1,-0.3,0,1,0,0);
+    ctx.transform(1,-0.2,0,1,0,0);
 
     //将文字绘制到指定坐标
     ctx.fillText(days, -size.width/2, 0);
