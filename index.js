@@ -110,7 +110,7 @@ async function painting(){
     ctx.transform(1,-0.3,0,1,0,0);
 
     //将文字绘制到指定坐标
-//     ctx.fillText(days, -size.width/2, 0);
+    ctx.fillText(days, -size.width/2, 0);
 
     //canvas转base64编码后上传
     const base64 = encodeURIComponent(canvas.toDataURL("image/png").substring(22));
